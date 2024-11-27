@@ -2,7 +2,7 @@
 
 port: {{ default(global.clash.http_port, "7890") }}
 socks-port: {{ default(global.clash.socks_port, "7891") }}
-mode: Rule
+mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.external_controller, "0.0.0.0:9090") }}
 
